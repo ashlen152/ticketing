@@ -16,6 +16,8 @@ spec:
       containers:
         - name: client
           image: ashlen152/client
+      imagePullSecrets:
+        - name: dockersecret
 ---
 apiVersion: v1
 kind: Service
