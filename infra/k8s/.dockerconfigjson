@@ -1,0 +1,10 @@
+{
+	"auths": {
+		"https://index.docker.io/v1/": {
+			"auth": "YXNobGVuMTUyOm9ubHl5b3UxNTI="
+		}
+	},
+	"aliases": {
+		"builder": "buildx"
+	}
+}

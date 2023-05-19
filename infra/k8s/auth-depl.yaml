@@ -24,6 +24,8 @@ spec:
                 secretKeyRef:
                   name: jwt-secret
                   key: JWT_KEY
+      imagePullSecrets:
+        - name: dockersecret
 ---
 apiVersion: v1
 kind: Service
