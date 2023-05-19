@@ -37,8 +37,6 @@ spec:
                 secretKeyRef:
                   name: stripe-secret
                   key: STRIPE_KEY
-      imagePullSecrets:
-        - name: dockersecret
 ---
 apiVersion: v1
 kind: Service
